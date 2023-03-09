@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+    padding: 0;
+   
+    display: flex;
+    max-height: fit-content;
+  justify-content: center;
+  background-image: url(pictures/stripes-dark-purple-6o-1920x1080.jpg);
+}
+.Section{
+   
+   grid-template-areas: 'section section'
+                            'section section';
+                            
+
+}
+.Section1{
+   
+    grid-area: 'Section1';
+    width: 150vh;
+    height: 150vh;
+    margin-bottom: 50px;
+    background-color: rgba(137, 43, 226, 0.295);
+    box-shadow: 0 10px 10px 10px blueviolet;
+}
+.Section2{
+
+    grid-area: 'Section2';
+    width: 150vh;
+    height: 150vh;
+    margin-bottom: 50px;
+    background-color: rgba(137, 43, 226, 0.295);
+    box-shadow: 0 10px 10px 10px blueviolet;
+}
+.Section3{
+   
+    grid-area: 'Section3';
+    width: 150vh;
+    height: 150vh;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: rgba(137, 43, 226, 0.295);
+    box-shadow: 0 10px 10px 10px blueviolet;
+}
+
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position:fixed;
+    left: 7;
+    margin-top: 10em;
+    border: solid black 2px;
+    transition: all 2s ease-in;
+    border-radius: 50px;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    
+    text-decoration: none;
+    transition: all 0.5s ease-in;
+  }
+  
+  .dropdown {
+    float:right;
+    overflow: hidden;
+    
+
+  }
+  
+  .dropdown .dropbtn {
+   
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    padding-right: 35px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 30px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+   
+    background-color: red;
+ 
+  }
+  
+  .dropdown-content {
+    transition: all 2s ease-in;
+    display: none;
+    position: absolute;
+    background-color: #d277e433;
+
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: rgba(253, 249, 249, 0.281);
+    padding: 12px 12px;
+   padding-left:30px ;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    transition: all 2s ease-out;
+  }
+  .typewrite{
+    background-color: purple;
+    color: white;
+  }
+  .dropdown-content a:hover {
+    background-color: #ddd;
+   
+  }
+  
+  .dropdown:hover .dropdown-content {
+    transition-delay: 2s;
+    position: relative;
+    display: block;
+  }
+
