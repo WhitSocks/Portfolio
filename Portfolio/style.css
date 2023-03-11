@@ -175,6 +175,64 @@ body{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: aliceblue;
 }
+.Frontend{
+  display: flex;
+ width: 100%;
+  height: 10em;
+  background-color: #ffffffd0;
+
+    border-radius: 20px;
+ align-items: center;
+}
+.Frontend:hover{
+   
+  background-color: #dddddd00;
+  transition: all 1.2s ease-out;
+}
+.Backend{
+  margin-top: 10px;
+  display: flex;
+ width: 100%;
+  height: 10em;
+  background-color: #ffffffd0;
+
+    border-radius: 20px;
+ align-items: center;
+}
+.Backend:hover{
+   
+  background-color: #dddddd00;
+  transition: all 1.2s ease-out;
+}
+
+.heading{
+  font-size: 90px;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: blue;
+position: absolute;
+  margin-left:19.8% ;
+}
+.picture{
+ display: grid;
+  grid-template-areas: 'img img img img ';
+ margin-left: 40px;
+
+ 
+}
+img{
+  width: 100%;
+  height: fit-content;
+}
+.img1{
+  position:relative;
+  z-index: -1;
+  grid-area: 'img1';
+  width:150px;
+  height: 150px;
+  padding: 50px;
+  
+}
 
 
 
